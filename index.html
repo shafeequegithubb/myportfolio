@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed Shafeeque | Flutter Developer Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            color: #111827;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+
+        .nav-link:hover {
+            color: #6366F1;
+        }
+    </style>
+</head>
+
+<body class="bg-white">
+
+    <!-- Navigation -->
+    <nav class="container mx-auto px-6 py-4">
+        <div class="flex justify-between items-center">
+            <div class="text-2xl font-bold text-gray-900">
+                <span class="text-indigo-600">Shafeeque</span> Portfolio
+            </div>
+            <div class="hidden md:flex space-x-8">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <button class="md:hidden focus:outline-none">
+                <i class="fas fa-bars text-2xl text-gray-600"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="container mx-auto px-6 py-20">
+        <div class="flex flex-col md:flex-row items-center justify-between">
+            <div class="md:w-1/2 text-center md:text-left mb-8 md:mb-0">
+                <h1 class="text-5xl font-bold mb-4">Mohammed Shafeeque</h1>
+                <h2 class="text-2xl text-gray-600 mb-6">Flutter Developer</h2>
+                <p class="text-lg text-gray-600 mb-8">Specializes in cross-platform mobile app development using
+                    Flutter.
+                    Passionate about exploring new technologies and delivering quality applications.</p>
+                <a href="https://github.com/shafeequegithubb" target="_blank"
+                    class="bg-green-500 text-white py-2 px-6 rounded-lg shadow hover:bg-green-600 transition">
+                    <i class="fab fa-github mr-2"></i> View GitHub
+                </a>
+            </div>
+            <div class="md:w-1/4 text-center">
+                <img src="assets/7ebae503-79ae-489d-9876-b82d7a13ae1f.png" alt="Profile Photo"
+                    class="mx-auto rounded-full w-60 h-61 shadow-lg">
+            </div>
+        </div>
+    </section>
+    <!-- Skills -->
+    <section id="skills" class="py-20 text-center">
+        <div class="container mx-auto px-6 bg-indigo-50 rounded-xl py-10">
+            <h2 class="text-3xl font-bold mb-12">Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div
+                    class="feature-card bg-white p-8 rounded-xl shadow-lg transition duration-300 hover:bg-indigo-500 hover:text-white">
+                    <h3 class="text-xl font-bold mb-2">Mobile Development</h3>
+                    <p class="text-gray-600 hover:text-gray-200">Flutter (Advanced)</p>
+                </div>
+                <div
+                    class="feature-card bg-white p-8 rounded-xl shadow-lg transition duration-300 hover:bg-indigo-500 hover:text-white">
+                    <h3 class="text-xl font-bold mb-2">State Management</h3>
+                    <p class="text-gray-600 hover:text-gray-200">Provider,BLoC, GetX, Riverpod</p>
+                </div>
+                <div
+                    class="feature-card bg-white p-8 rounded-xl shadow-lg transition duration-300 hover:bg-indigo-500 hover:text-white">
+                    <h3 class="text-xl font-bold mb-2">Backend & Database</h3>
+                    <p class="text-gray-600 hover:text-gray-200">Firebase, Firestore, Sqflite, Hive, SharedPreferences
+                    </p>
+                </div>
+                <div
+                    class="feature-card bg-white p-8 rounded-xl shadow-lg transition duration-300 hover:bg-indigo-500 hover:text-white">
+                    <h3 class="text-xl font-bold mb-2">Architecture Patterns</h3>
+                    <p class="text-gray-600 hover:text-gray-200">MVC, Domain-Driven Design (DDD)</p>
+                </div>
+                <div
+                    class="feature-card bg-white p-8 rounded-xl shadow-lg transition duration-300 hover:bg-indigo-500 hover:text-white">
+                    <h3 class="text-xl font-bold mb-2">API Integration</h3>
+                    <p class="text-gray-600 hover:text-gray-200">RESTful APIs</p>
+                </div>
+                <div
+                    class="feature-card bg-white p-8 rounded-xl shadow-lg transition duration-300 hover:bg-indigo-500 hover:text-white">
+                    <h3 class="text-xl font-bold mb-2">Tools & IDEs</h3>
+                    <p class="text-gray-600 hover:text-gray-200">Android Studio, VS Code, Xcode</p>
+                </div>
+                <div
+                    class="feature-card bg-white p-8 rounded-xl shadow-lg transition duration-300 hover:bg-indigo-500 hover:text-white">
+                    <h3 class="text-xl font-bold mb-2">Project Management</h3>
+                    <p class="text-gray-600 hover:text-gray-200">Jira</p>
+                </div>
+                <div
+                    class="feature-card bg-white p-8 rounded-xl shadow-lg transition duration-300 hover:bg-indigo-500 hover:text-white">
+                    <h3 class="text-xl font-bold mb-2">UI/UX Design</h3>
+                    <p class="text-gray-600 hover:text-gray-200">UI/UX Design Principles</p>
+                </div>
+                <div
+                    class="feature-card bg-white p-8 rounded-xl shadow-lg transition duration-300 hover:bg-indigo-500 hover:text-white">
+                    <h3 class="text-xl font-bold mb-2">Version Control & Others</h3>
+                    <p class="text-gray-600 hover:text-gray-200">Git, GitHub, Basic Knowledge of Figma</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Projects -->
+    <section id="projects" class="bg-gray-50 py-20 text-center">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-12">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div
+                    class="feature-card bg-white p-8 rounded-xl shadow-lg transition duration-300 hover:bg-indigo-500 hover:text-white">
+                    <h3 class="text-xl font-bold mb-2">Bug Tracker</h3>
+                    <p class="text-gray-600 mb-4 hover:text-gray-200">A Flutter app with Firebase backend to track and
+                        manage software bugs.</p>
+                    <a href="https://github.com/NizzCorp-Academy/Quickfix" target="_blank"
+                        class="text-indigo-600 font-semibold hover:underline hover:text-white">GitHub Repo</a>
+                </div>
+
+                <div
+                    class="feature-card bg-white p-8 rounded-xl shadow-lg transition duration-300 hover:bg-indigo-500 hover:text-white">
+                    <h3 class="text-xl font-bold mb-2">Quiz App</h3>
+                    <p class="text-gray-600 mb-4 hover:text-gray-200">A quiz application with dynamic questions and
+                        score tracking built with Flutter.</p>
+                    <a href="#" class="text-indigo-600 font-semibold hover:underline hover:text-white">GitHub Repo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="bg-gray-50 py-20 text-center">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-6">About Me</h2>
+            <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                I'm a Flutter Developer based in Kerala, passionate about building high-quality apps with clear
+                architecture.
+                I enjoy working on projects that require problem-solving and innovative UI/UX solutions.
+            </p>
+        </div>
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="py-20 bg-gray-50 text-center">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-12">Contact Me</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-4xl mx-auto">
+
+                <div
+                    class="bg-white p-6 rounded-xl shadow-lg transition duration-300 hover:bg-indigo-500 hover:text-white">
+                    <div class="mb-4 text-3xl text-indigo-500 transition duration-300">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Email</h3>
+                    <p class="break-words text-sm">shafeequemohd711@gmail.com</p>
+                </div>
+
+                <div
+                    class="bg-white p-6 rounded-xl shadow-lg transition duration-300 hover:bg-green-500 hover:text-white">
+                    <div class="mb-4 text-3xl text-green-500 transition duration-300">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Phone</h3>
+                    <p class="text-sm">+91 7994208965</p>
+                </div>
+
+                <div
+                    class="bg-white p-6 rounded-xl shadow-lg transition duration-300 hover:bg-blue-600 hover:text-white">
+                    <div class="mb-4 text-3xl text-blue-600 transition duration-300">
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">LinkedIn</h3>
+                    <a href="https://www.linkedin.com/in/mohammed-shafeeque-6305a0178" target="_blank"
+                        class="text-sm hover:underline break-words">Mohammed Shafeeque</a>
+                </div>
+
+                <div
+                    class="bg-white p-6 rounded-xl shadow-lg transition duration-300 hover:bg-gradient-to-tr hover:from-yellow-400 hover:via-pink-500 hover:to-purple-600 hover:text-white">
+                    <div
+                        class="mb-4 text-3xl bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 text-white p-2 rounded-full inline-block">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Instagram</h3>
+                    <a href="https://www.instagram.com/shafeeque___mohd/?__pwa=1" target="_blank"
+                        class="text-sm hover:underline break-words">shafeeque___mohd</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-6 text-center">
+        <p>&copy; 2025 Mohammed Shafeeque. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.querySelector('.md\\:hidden').addEventListener('click', function () {
+            const menu = document.querySelector('.md\\:flex');
+            menu.classList.toggle('hidden');
+            menu.classList.toggle('flex');
+        });
+    </script>
+
+</body>
+
+</html>
